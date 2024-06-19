@@ -51,13 +51,104 @@
     </header>
 
     <main>
-      <section class="Accueil">
-        <h1>Accueil</h1>
-        <p>Bienvenue sur le site du Pouy FC !</p>
+      <section>
+        <div class="Grids-Accueil">
+          <div class="Container-Programme-Accueil">
+            <h2>Programme des matchs à venir</h2>
+          </div>
+          <div class="Container-Actualites-Accueil">
+            <h2>Actualités du PouyFC</h2>
+          </div>
+          <div class="Container-Evenements-Accueil">
+            <h2>Événements du club</h2>
+          </div>
+          <div class="Container-Resultats-Accueil">
+            <h2>Résultats du week end</h2>
+          </div>
+        </div>
       </section>
-      <div></div>
+
+      <section id="contact" class="section-contact">
+        <h2>Contactez-nous !</h2>
+        <form action="" method="get">
+          <div class="form-nom-email">
+            <div class="form-column">
+              <label for="Nom"><strong>Nom et Prénom :</strong></label>
+              <input type="text" name="Nom" id="Nom" />
+            </div>
+            <div class="form-column">
+              <label for="email"><strong>Email :</strong></label>
+              <input type="email" name="email" id="email" />
+            </div>
+          </div>
+          <label for="Message"><strong>Message :</strong></label>
+          <textarea name="Message" id="Message" rows="10"></textarea>
+          <input type="submit" value="ENVOYER" class="cta-accueil" />
+        </form>
+      </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <div class="Footer-Container">
+        <div class="Contact">
+          <h2>Contact</h2>
+          <div class="Footer-Telephone">
+            <div>
+              <img
+              src="Images/Téléphone Footer.png"
+              alt="Téléphone"
+              width="30px"
+            />
+            </div>
+            <div>
+              <p>Président : 06.00.00.00.00</p>
+            </div>
+          </div>
+          <div class="Footer-Mail">
+            <div>
+              <img
+              src="Images/Enveloppe Footer.png"
+              alt="Enveloppe Mail"
+              width="30px"
+            />
+            </div>
+            <div>
+              <p>Adresse.mail@mail.com</p>
+            </div>
+          </div>
+          <div class="Footer-Localisation">
+            <div>
+              <img
+              src="Images/Localisation Footer.png"
+              alt="Localisation"
+              width="30px"
+            />
+            </div>
+            <div>
+              <p>343 route du stade, 40990 Saint-Vincent-de-Paul</p>
+            </div>
+          </div>
+        </div>
+        <div class="Logo-Footer">
+          <a href="index.html">
+          <img src="Images/Logo footer PouyFC.png" alt="Logo PouyFC" width="150" /></a>
+        </div>
+        <div class="Rejoignez-nous">
+          <h2>Rejoignez-nous !</h2>
+          <div class="Reseaux-footer">
+          <a href="https://www.instagram.com/pouy_fc/" class="Instagram">
+            <img src="Images/Instagram Footer.png" alt="Logo Instagram" width="50px"/></a>
+          <a
+            href="https://www.facebook.com/p/Pouy-FC-100057543253910/?locale=fr_FR"
+           class="Facebook">
+            <img
+              src="Images/Facebook Footer.png"
+              alt="Logo Facebook"
+              width="50px"
+          /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
