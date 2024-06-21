@@ -21,6 +21,10 @@ header, footer {
     margin: 10px;
 }
 
+.lien-icone:hover {
+    transform: scale(0.95);
+}
+
 nav > div {
     display: flex;
     justify-content: center;
@@ -31,11 +35,6 @@ nav {
     width: 100%;
     background-color: radial-gradient(circle at 97% 32%, rgba(131, 131, 131,0.05) 0%, rgba(131, 131, 131,0.05) 50%,rgba(20, 20, 20,0.05) 50%, rgba(20, 20, 20,0.05) 100%),radial-gradient(circle at 61% 40%, rgba(35, 35, 35,0.05) 0%, rgba(35, 35, 35,0.05) 50%,rgba(239, 239, 239,0.05) 50%, rgba(239, 239, 239,0.05) 100%),radial-gradient(circle at 47% 73%, rgba(122, 122, 122,0.05) 0%, rgba(122, 122, 122,0.05) 50%,rgba(5, 5, 5,0.05) 50%, rgba(5, 5, 5,0.05) 100%),linear-gradient(90deg, rgb(249,254,18),rgb(0,0,0));
 }
-
-/* nav > div > ul {
-    margin: 0px;
-    padding: 0px;
-} */
 
 nav > div > ul::after {
     content: "";
@@ -265,5 +264,9 @@ input[type='submit']{
 
 /* Logo sur fond cercle noir */
 footer img {
-    border-radius: 15%;.
+    border-radius: 15%;
+}
+
+footer img:hover {
+    transform: scale(0.95);
 }
